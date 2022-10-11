@@ -67,7 +67,7 @@ textarea::placeholder { color:rgba(0,0,0,0.3); }
 #wrap { min-height:100%; position:relative; padding-bottom:120px; background:url('../images/bg.jpg') center top no-repeat; background-size:cover; }
 
 #header { height:86px; padding:23px 35px 22px; border-bottom:1px solid rgba(255,255,255,.2); }
-#header h1 { width:206px; height:43px; background:url('../images/logo.png') center center no-repeat; background-size:100% auto; font-size:0; text-indent:-99999px; }
+#header h1 img { width:auto; height:40px; }
 
 #container { padding:130px 0; }
 
@@ -105,7 +105,7 @@ textarea::placeholder { color:rgba(0,0,0,0.3); }
 	#wrap { height:auto; }
 
 	#header { height:auto; padding:20px 25px; border:0; }
-	#header h1 { width:155px; height:32px; }
+	#header h1 img { height:32px; }
 
 	#container { padding:30px 16px 100px; }
 	
