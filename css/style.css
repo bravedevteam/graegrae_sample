@@ -93,7 +93,10 @@ textarea::placeholder { color:rgba(0,0,0,0.3); }
 .boxGroup .count .btnCount.plus { background-image:url('../images/iconPlus.png'); }
 .boxGroup .count .btnCount.minus { background-image:url('../images/iconMinus.png'); }
 .boxGroup .btnArea { margin-top:50px; }
-.boxGroup .btnArea a { height:80px; display:block; border-radius:40px; background:#4afec7; text-align:center; font-size:18px; font-weight:700; line-height:80px; }
+.boxGroup .btnArea .btn { height:80px; display:block; border-radius:40px; background:#4afec7; text-align:center; font-size:18px; font-weight:700; line-height:80px; }
+.boxGroup .btnArea .btn+.btn { margin-top:25px; }
+.boxGroup .btnArea .btn.is--wait { background:#15141d; border:1px solid #4afec7; color:#4afec7; }
+.boxGroup .btnArea .btn.is--fin { background:#45444d; color:#fff; }
 
 .boxInfo { max-width:1330px; margin:55px auto; padding:0 67px; position:relative; top:30px; transition:all .3s .8s; opacity:0; }
 .boxInfo.animated { top:0px; opacity:1; }
@@ -123,7 +126,8 @@ textarea::placeholder { color:rgba(0,0,0,0.3); }
 	.boxGroup .subject { margin-bottom:15px; }
 	.boxGroup .info { margin-top:35px; }
 	.boxGroup .btnArea { margin-top:45px; }
-	.boxGroup .btnArea a { height:65px; line-height:65px; font-size:16px; }
+	.boxGroup .btnArea .btn { height:65px; line-height:65px; font-size:16px; }
+	.boxGroup .btnArea .btn+.btn { margin-top:12px; }
 
 	.boxInfo { margin:37px auto; padding:0 30px; }
 
