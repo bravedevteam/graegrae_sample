@@ -88,7 +88,7 @@ textarea::placeholder { color:rgba(0,0,0,0.3); }
 .boxGroup .info dd strong { color:#4afec7; font-weight:700; }
 .boxGroup .info dd span { color:#4afec7; }
 .boxGroup .count { display:inline-block; overflow:hidden; vertical-align:middle; }
-.boxGroup .count input[type="text"] { width:62px; height:30px; float:left; margin:0 5px; border:0; background:#4afec7; }
+.boxGroup .count input[type="text"] { width:62px; height:30px; padding:0; float:left; margin:0 5px; border:0; background:#4afec7; text-align:center; }
 .boxGroup .count .btnCount { width:30px; height:30px; float:left; background-color:#3b3b3b; background-repeat:no-repeat; background-size:11px auto; background-position:center center; border:1px solid #5c5c5c; border-radius:50%; font-size:0; text-indent:-99999px; }
 .boxGroup .count .btnCount.plus { background-image:url('../images/iconPlus.png'); }
 .boxGroup .count .btnCount.minus { background-image:url('../images/iconMinus.png'); }
